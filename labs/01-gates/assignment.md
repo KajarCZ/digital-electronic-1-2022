@@ -1,41 +1,63 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME ZMENA
+# Lab 1: Karel Beranek
 
 ### De Morgan's laws
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/equations.png)
+   ![Logic function](images/Equations_black.png#gh-light-mode-only)
 
-2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+2. Listing of VHDL architecture from design file (`code/design.vhd`) for all three functions.
 
-```vhdl
-architecture dataflow of demorgan is
-begin
-    f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
-    f_nand_o <= -- WRITE YOUR CODE HERE
-    f_nor_o  <= -- WRITE YOUR CODE HERE
-end architecture dataflow;
-```
+   ```vhdl
+   architecture dataflow of gates is
+   begin
+      f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
+      f_nand_o <= (not(b_i) nand (a_i)) nand (not(c_i) nand not(b_i));     -- Mod-Fumc
+      f_nor_o  <= not(((b_i) nor not(a_i)) nor ((c_i) nor (b_i)));         -- Mod-Func
+   end architecture dataflow;
 
-3. Complete table with logic functions' values:
+   ```
 
-| **c** | **b** |**a** | **f(c,b,a)_ORG** | **f(c,b,a)_NAND** | **f(c,b,a)_NOR** |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |  |  |
-| 0 | 0 | 1 |  |  |  |
-| 0 | 1 | 0 |  |  |  |
-| 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+3. Table with logic functions' values:
 
+   | **c** | **b** |**a** | **f(c,b,a)_ORG** | **f(c,b,a)_NAND** | **f(c,b,a)_NOR** |
+   | :-: | :-: | :-: | :-: | :-: | :-: |
+   | 0 | 0 | 0 | 1 | 1 | 1 |
+   | 0 | 0 | 1 | 1 | 1 | 1 |
+   | 0 | 1 | 0 | 0 | 0 | 0 |
+   | 0 | 1 | 1 | 0 | 0 | 0 |
+   | 1 | 0 | 0 | 0 | 0 | 0 | 
+   | 1 | 0 | 1 | 1 | 1 | 1 |
+   | 1 | 1 | 0 | 0 | 0 | 0 |
+   | 1 | 1 | 1 | 0 | 0 | 0 |
+
+4. Screenshot with simulated time waveforms.
+
+   ![Waveform](images/Waveforms.png)
+   (click to open picture in new tab)
+   
+3. Link to public EDA Playground example:
+
+   [EDA Playgroud project - basic gates](https://www.edaplayground.com/x/vnvJ)
+   
 ### Distributive laws
+1. Equations
 
-1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+   ![Logic function](images/distributive_law_1_black.png#gh-light-mode-only)
+   
+2. Screenshot with simulated time waveforms.
+   
+      ![Waveform](images/Distributive_law.png)
+      
+      (click to open picture in new tab)
+      ```vhdl
+      architecture dataflow of gates is
+      begin
+            f_left_o  <= (x_i and y_i) or (x_i and z_i);
+            f_right_o <= (x_i) and (y_i or z_i);
+      end architecture dataflow;
+      ```
 
-   ![your figure]()
-
-2. Link to your public EDA Playground example:
-
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+3. Link to public EDA Playground example:
+   
+   [EDA Playgroud project - distributive laws](https://www.edaplayground.com/x/anrD)
