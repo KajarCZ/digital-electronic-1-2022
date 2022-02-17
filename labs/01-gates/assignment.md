@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/Equations_black.png#gh-light-mode-only)
+   ![Equations_black](images/Equations_black.png)
 
 2. Listing of VHDL architecture from design file (`code/design.vhd`) for all three functions.
 
@@ -43,7 +43,7 @@
 ### Distributive laws
 1. Equations
 
-   ![Logic function](images/distributive_law_1_black.png#gh-light-mode-only)
+   ![distributive_law_1_black](images/distributive_law_1_black.png)
    
 2. Screenshot with simulated time waveforms.
    
