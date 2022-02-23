@@ -50,10 +50,6 @@
 
 
 
-
-3. Link to your public EDA Playground example:
-
-   [https://www.edaplayground.com/x/Mn92](https://www.edaplayground.com/x/Mn92)
    
 ## References
 
