@@ -1,4 +1,4 @@
-# Lab 2: Jiri Jilek
+# Lab 2: Karel Beranek
 
 ### 2-bit comparator
 
@@ -27,7 +27,7 @@
 3. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
    Greater than:
 
-   (images/kmap.jpg)
+   ![K-map with func.](images/Screenshot_20220223-140601_Samsung Notes.jpg)
 
 
 4. Binary comparator in VHDL language
