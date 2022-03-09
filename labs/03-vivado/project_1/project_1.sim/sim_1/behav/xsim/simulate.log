@@ -1,0 +1,8 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: D:/Documents/xberan51/digital-electronic-1-2022/labs/03-vivado/project_1/project_1.srcs/sim_1/new/tb_comparator_4bit.vhd
+Error: Input combination 0011, 0011 FAILED
+Time: 100 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: D:/Documents/xberan51/digital-electronic-1-2022/labs/03-vivado/project_1/project_1.srcs/sim_1/new/tb_comparator_4bit.vhd
+Note: Stimulus process finished
+Time: 100 ns  Iteration: 0  Process: /tb_comparator_4bit/p_stimulus  File: D:/Documents/xberan51/digital-electronic-1-2022/labs/03-vivado/project_1/project_1.srcs/sim_1/new/tb_comparator_4bit.vhd

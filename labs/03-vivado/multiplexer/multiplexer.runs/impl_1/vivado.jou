@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar  2 12:39:45 2022
+# Process ID: 1704
+# Current directory: F:/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.runs/impl_1
+# Command line: vivado.exe -log mux_3bit_4to1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mux_3bit_4to1.tcl -notrace
+# Log file: F:/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.runs/impl_1/mux_3bit_4to1.vdi
+# Journal file: F:/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mux_3bit_4to1.tcl -notrace
