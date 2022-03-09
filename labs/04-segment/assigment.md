@@ -40,7 +40,7 @@
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure](images/simulation.PNG)
+   ![your figure](https://github.com/KajarCZ/digital-electronic-1-2022/blob/main/labs/04-segment/images/simulation.png)
 
 ### Truth table for LEDs(7:4)
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
