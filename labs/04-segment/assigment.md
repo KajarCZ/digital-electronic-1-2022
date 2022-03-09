@@ -102,14 +102,14 @@
     -- Experiments on your own: LED(7:4) indicators
 
     -- Turn LED(4) on if input value is equal to 0 (0 because we turn on LED by 0)
-       LED(4) <= '0' when (SW = "0000");
+       LED(4) <= '1' when (SW = "0000");
 
     -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
-       LED(5) <= '0' when (SW > "1001");
+       LED(5) <= '1' when (SW > "1001");
 
     -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
-       LED(6) <= '0' when (SW(0)='1');
+       LED(6) <= '1' when (SW(0)='1');
 
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
-       LED(7) <= '0' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000");
+       LED(7) <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000");
    ```
