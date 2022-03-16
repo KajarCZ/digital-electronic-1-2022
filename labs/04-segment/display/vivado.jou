@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar  9 14:44:14 2022
+# Process ID: 3932
+# Current directory: D:/Documents/xberan51/digital-electronic-1-2022/labs/04-segment/display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11740 D:\Documents\xberan51\digital-electronic-1-2022\labs\04-segment\display\display.xpr
+# Log file: D:/Documents/xberan51/digital-electronic-1-2022/labs/04-segment/display/vivado.log
+# Journal file: D:/Documents/xberan51/digital-electronic-1-2022/labs/04-segment/display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/xberan51/digital-electronic-1-2022/labs/04-segment/display/display.xpr
+update_compile_order -fileset sources_1
