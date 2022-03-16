@@ -5,25 +5,33 @@
 1. Listing of VHDL architecture for T-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity t_ff_rst is
+    Port ( clk : in STD_LOGIC;
+           rst : in STD_LOGIC;
+           t : in STD_LOGIC;
+           q : out STD_LOGIC;
+           q_bar : out STD_LOGIC);
+end t_ff_rst;
+
 architecture Behavioral of t_ff_rst is
-    -- It must use this local signal instead of output ports
-    -- because "out" ports cannot be read within the architecture
     signal s_q : std_logic;
 begin
-    --------------------------------------------------------
-    -- p_t_ff_rst:
-    -- T type flip-flop with a high-active synchro reset,
-    -- rising-edge clk.
-    -- q(n+1) = t./q(n) + /t.q(n)
-    -- q(n+1) =  q(n) if t = 0 (no change)
-    -- q(n+1) = /q(n) if t = 1 (inversion)
-    --------------------------------------------------------
+
     p_t_ff_rst : process(clk)
     begin
         if rising_edge(clk) then
 
-        -- WRITE YOUR CODE HERE
 
+            if (rst = '1' ) then
+                s_q     <= '0';
+            else
+                -- s_q     <= ( (t and (not s_q)) or ((not t) and s_q) );
+                s_q <= t xor s_q; -- predchozi radek je definici funkce xor
+            end if;
+            
         end if;
     end process p_t_ff_rst;
 
