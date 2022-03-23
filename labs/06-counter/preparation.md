@@ -1,4 +1,8 @@
-![your figure](images/n4r.png)
+# Lab 6: Karel Beránek
+
+### Bidirectional counter
+
+![schema](images/n4r.png)
 
 
 
