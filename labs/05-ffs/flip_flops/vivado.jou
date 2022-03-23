@@ -2,25 +2,13 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Wed Mar 16 14:02:07 2022
-# Process ID: 10864
+# Start of session at: Wed Mar 16 14:47:46 2022
+# Process ID: 11596
 # Current directory: D:/Documents/xberan51/digital-electronic-1-2022/labs/05-ffs/flip_flops
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11956 D:\Documents\xberan51\digital-electronic-1-2022\labs\05-ffs\flip_flops\flip_flops.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6644 D:\Documents\xberan51\digital-electronic-1-2022\labs\05-ffs\flip_flops\flip_flops.xpr
 # Log file: D:/Documents/xberan51/digital-electronic-1-2022/labs/05-ffs/flip_flops/vivado.log
 # Journal file: D:/Documents/xberan51/digital-electronic-1-2022/labs/05-ffs/flip_flops\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project D:/Documents/xberan51/digital-electronic-1-2022/labs/05-ffs/flip_flops/flip_flops.xpr
 update_compile_order -fileset sources_1
-launch_simulation
-source tb_ff_rst.tcl
-close_sim
-launch_simulation
-source tb_ff_rst.tcl
-close_sim
-launch_simulation
-source tb_ff_rst.tcl
-save_wave_config {D:/Documents/xberan51/digital-electronic-1-2022/labs/05-ffs/flip_flops/tb_ff_rst_behav.wcfg}
-add_files -fileset sim_1 -norecurse D:/Documents/xberan51/digital-electronic-1-2022/labs/05-ffs/flip_flops/tb_ff_rst_behav.wcfg
-set_property xsim.view D:/Documents/xberan51/digital-electronic-1-2022/labs/05-ffs/flip_flops/tb_ff_rst_behav.wcfg [get_filesets sim_1]
-close_sim
