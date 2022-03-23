@@ -5,6 +5,12 @@
 1. Listing of VHDL code of the completed process `p_cnt_up_down`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
+    architecture behavioral of cnt_up_down is
+
+    -- Local counter
+    signal s_cnt_local : unsigned(g_CNT_WIDTH - 1 downto 0);
+
+begin
     --------------------------------------------------------
     -- p_cnt_up_down:
     -- Clocked process with synchronous reset which implements
@@ -20,11 +26,23 @@
             elsif (en_i = '1') then -- Test if counter is enabled
 
                 -- TEST COUNTER DIRECTION HERE
+                
+                if (cnt_up_i = '1') then        
+                     s_cnt_local <= s_cnt_local + 1; 
+                else s_cnt_local <= s_cnt_local - 1;
+                end if;
 
-                    s_cnt_local <= s_cnt_local + 1;
+
+                -- s_cnt_local <= s_cnt_local + 1;
+
             end if;
         end if;
     end process p_cnt_up_down;
+
+    -- Output must be retyped from "unsigned" to "std_logic_vector"
+    cnt_o <= std_logic_vector(s_cnt_local);
+
+end architecture behavioral;
 ```
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
