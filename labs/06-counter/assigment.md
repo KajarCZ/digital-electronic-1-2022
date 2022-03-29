@@ -47,9 +47,9 @@ end architecture behavioral;
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![simulace](images/Screenshot (5).png)
-    ![simulace](images/Screenshot (6).png)
-     ![simulace](images/Screenshot (7).png)
+   ![simulace1](images/Screenshot (5).png)
+    ![simulace2](images/Screenshot (6).png)
+     ![simulace3](images/Screenshot (7).png)
 
 ### Two counters
 
