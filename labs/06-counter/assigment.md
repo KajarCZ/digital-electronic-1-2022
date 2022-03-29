@@ -47,12 +47,12 @@ end architecture behavioral;
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![simulace1](images/Screenshot (5).png)
-    ![simulace2](images/Screenshot (6).png)
-     ![simulace3](images/Screenshot (7).png)
+   ![simulace1](images/Sc1.png)
+    ![simulace2](images/Sc2.png)
+     ![simulace3](images/Sc3.png)
 
 ### Two counters
 
 1. Image of the top layer structure including both counters, ie a 4-bit bidirectional counter from *Part 4* and a 16-bit counter with a 10 ms time base from *Experiments on your own*. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![schema](images/n4r.png)
+   ![schema](images/SSSN.jpg)
