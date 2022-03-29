@@ -47,10 +47,12 @@ end architecture behavioral;
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![simulace](images/sim.png)
+   ![simulace](images/Screenshot (5).png)
+    ![simulace](images/Screenshot (6).png)
+     ![simulace](images/Screenshot (7).png)
 
 ### Two counters
 
 1. Image of the top layer structure including both counters, ie a 4-bit bidirectional counter from *Part 4* and a 16-bit counter with a 10 ms time base from *Experiments on your own*. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![schema](images/schem.png)
+   ![schema](images/SmartSelect_20220329-183024_Samsung Notes.jpg)
