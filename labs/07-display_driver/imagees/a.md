@@ -1,4 +1,5 @@
-´´´{
+```javascript
+{
   signal:
   [
     ['Digit position',
@@ -24,4 +25,4 @@
     text: ' Karel Beránek        4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms   ',
   },
 }
-´´´
+```
