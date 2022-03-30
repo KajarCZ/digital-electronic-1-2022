@@ -26,3 +26,4 @@
   },
 }
 ```
+The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool.
