@@ -1,4 +1,4 @@
-![your figure](Screenshot_161.png)
+![your figure](images/Screenshot_161.png)
 
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
