@@ -114,9 +114,6 @@ begin
 
 
 
-
-
-        -- WRITE OTHER TEST CASES HERE
         s_hex <= "010000"; wait for 50 ns;
         assert (s_seg = "0000100")
         report "Input combination 010000 FAILED" severity error;
