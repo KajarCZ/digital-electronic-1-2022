@@ -49,7 +49,7 @@ Převážná část modulů byla použita z již dříve absolvovaných cvičen�
 
 Simulace upravených modulů:
 ### Finální simulace
-![finální simulace](images/sim.png)
+![finální simulace](images/sim.PNG)
 
 ### Simulace pro symboly
 ![simulace pro symboly](images/Screenshot%20(1).png)
