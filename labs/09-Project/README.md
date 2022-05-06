@@ -147,7 +147,7 @@ end architecture Behavioral;
 
 ## Videos
 
-Pro přehraní videa je nutné se přihlásit pomocí fakultního účtu typu "xxxx00@vutbr.cz
+Pro přehraní videa je nutné se přihlásit pomocí fakultního účtu typu "xxxx00@vutbr.cz"
 
 [Úvodní video](https://drive.google.com/file/d/1-LChVKkGhKZEPk7eCUmlcEoUhYBx0-dx/view?usp=sharing)
 
